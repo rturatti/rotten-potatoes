@@ -34,6 +34,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             rodrigoturatti/rotten-potatoes:latest
             rodrigoturatti/rotten-potatoes:lastest:${{ github.run_number }}
